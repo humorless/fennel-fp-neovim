@@ -10,7 +10,7 @@ Knowledge like the example above, where one doesn't consult documentation but in
 
 The difficulty in transferring tacit knowledge can be said to be one of the long-standing challenges in the software industry. This challenge doesn't only occur within organizations; it can be said that the entire industry is affected by this difficulty. The software industry periodically experiences large-scale "**reinventing the wheel**" phenomena, which are often necessary transformations driven by fundamental changes in the technological environment (e.g., shifting from on-premise deployment to cloud-native, or the emergence of new programming paradigms). However, the reason such transformations are costly and difficult to control in terms of risk lies in the difficulty of inheriting the tacit knowledge of previous generations. When a new project is initiated, it rarely gains full tacit knowledge of the previous generation's system, leading teams to hastily research the traces of the old system only when encountering significant difficulties or system failures. The discontinuity of tacit knowledge turns an already complex technical migration into a daunting challenge of starting from scratch.
 
-## Approaches
+## The Way to Respond
 
 The difficulty in transferring tacit knowledge can be broadly addressed in two ways:
 
