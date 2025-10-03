@@ -16,7 +16,7 @@ After developing several plugins with Fennel, I found that it not only solved my
 
 ## Software Development in the AI Era
 
-By 2025, many engineers will likely be using AI to assist in software development, [and I'm no exception](https://replware.substack.com/p/a-conjure-piglet-client). In the process of applying AI to software development, I found that the programming languages and paradigms I've used for years are not only not outdated but have instead highlighted their value even more. They were originally excellent tools for improving **programming bottlenecks**, and with AI, the existing bottlenecks in programming activities have become even more pronounced than before.
+By 2025, many engineers will likely be using AI to assist in software development, [and I'm no exception](https://gaiwan.co/blog/conjure-piglet-client/). In the process of applying AI to software development, I found that the programming languages and paradigms I've used for years are not only not outdated but have instead highlighted their value even more. They were originally excellent tools for improving **programming bottlenecks**, and with AI, the existing bottlenecks in programming activities have become even more pronounced than before.
 
 Generally speaking, when engineers develop software, roughly speaking, time is spent on the following four activities:
 
@@ -44,7 +44,7 @@ Clojure's difficulty lies in many aspects:
 - Web application development is not simple to begin with.
 - Clojure's core lib has 700 functions and macros. Imagine a super-rich standard library.
 - Clojure runs on the JVM, so you'll always encounter situations where you need to use Java Libraries.
-- Some Clojure programmers even abandon SQL-based RDBMS in favor of [Datomic](https://ithelp.ithome.com/articles/10345473).
+- Some Clojure programmers even abandon SQL-based RDBMS in favor of [Datomic](https://github.com/humorless/datomic-essentials).
 
 In contrast, for beginners, if you start with Fennel, each of the above points is significantly simplified:
 
