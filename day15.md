@@ -46,7 +46,7 @@ Another more common application scenario is when we need to process a collection
 
 ### if patterns
 
-if patterns are a class of idioms with a great deal of variation, and the discussion is quite lengthy. Interested readers can refer to [this article](https://replware.substack.com/p/if-pattern).
+if patterns are a class of idioms with a great deal of variation, and the discussion is quite lengthy. Interested readers can refer to [this article](https://gaiwan.co/blog/beyond-the-if-pattern/).
 
 ## FP and Code Reuse (code reuse)
 
