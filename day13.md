@@ -16,7 +16,7 @@ Unfortunately, this definition doesn't have a simple answer. Compared to the def
 
 Therefore, the definition of Functional Programming varies from person to person, and opinions differ. Some might consider the intersection of these two language systems to be FP. Others might believe that without type inference, it doesn't count.
 
-In other words, the definition of Functional Programming is as controversial as [whether Lisp should actively use Macros](https://ithelp.ithome.com.tw/articles/10378722).
+In other words, the definition of Functional Programming is as controversial as whether Lisp should actively use Macros.
 
 ## Separating Concept from Implementation
 
@@ -27,9 +27,9 @@ Regarding the issue of definition, I believe that Functional Programming (FP) sh
 
 Based on this viewpoint of separating concept and implementation, I would argue that:
 
-1.  The focus of Functional Programming lies in the "**concept**." Because by satisfying this concept, the semantics of computation become [higher-level](https://ithelp.ithome.com.tw/articles/10379221), which can achieve the effect of reducing bugs, and potentially consuming more system resources.
+1.  The focus of Functional Programming lies in the "**concept**." Because by satisfying this concept, the semantics of computation become higher-level, which can achieve the effect of reducing bugs, and potentially consuming more system resources.
 2.  Mechanisms like higher-order functions and functions as first-class citizens, although these indeed resemble common characteristics of many functional programming languages, they are essentially also implementations. In other words, if a certain language can achieve the concept of Functional Programming, even if it doesn't provide features like higher-order functions or functions as first-class citizens, I would still consider it to be Functional Programming.
-3.  To take it a step further: I also believe that certain ways of writing Linux Shell pipes, data transformations within a [Modern Data Stack](https://ithelp.ithome.com.tw/users/20161869/ironman/6057), and [Event sourcing designs like Datomic](https://ithelp.ithome.com.tw/users/20161869/ironman/7432) are all manifestations of the Functional Programming concept.
+3.  To take it a step further: I also believe that certain ways of writing Linux Shell pipes, data transformations within a [Modern Data Stack](https://ithelp.ithome.com.tw/users/20161869/ironman/6057), and [Event sourcing designs like Datomic](https://github.com/humorless/datomic-essentials) are all manifestations of the Functional Programming concept.
 
 ## Summary
 
