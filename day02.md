@@ -127,7 +127,9 @@ Plug 'jiangmiao/auto-pairs', { 'tag': 'v2.0.0' }
 
 call plug#end()
 
-colorscheme molokai
+if !empty(glob(stdpath('data') . '/plugged/molokai'))
+    colorscheme molokai
+endif
 " Config the rainbow-parentheses
 let g:rainbow_ctermfgs = [
     \ 'red',
@@ -144,7 +146,9 @@ let maplocalleader=","
 let mapleader="\\"
 " Make vim-sexp recognizes the fennel
 let g:sexp_filetypes = 'fennel'
-lua require("nvim-surround").setup()
+if !empty(glob(stdpath('data') . '/plugged/nvim-surround'))
+    lua require("nvim-surround").setup()
+endif
 
 function! Fnlfmt()
  !fnlfmt --fix %
