@@ -95,7 +95,7 @@ The key point of the rewrite below is: adding `(local ddd {})` at the top, and u
 (wrong-add 3 4)
 ```
 
-After evaluating the entire file with `<localleader>eb`, move the cursor above `ddd`, execute the command `<localleader>eb`, and you will see the result.
+After evaluating the entire file with `<localleader>eb`, move the cursor above `ddd`, execute the command `<localleader>ew`, and you will see the result.
 
 ```
 ; evaluate (word): ddd
